@@ -6,11 +6,17 @@ This project presents an in-depth **data analysis of conflicts in Syria**, based
 
 ---
 
-## 🗂 Project Files
+## 📦 Download the Full Project
 
-- **`syria.csv`**: The raw/processed dataset containing conflict incidents in Syria.
-- **`Syria.ipynb`**: A Jupyter Notebook performing exploratory data analysis (EDA), feature engineering, and visualizations.
-- **`Syria_report.pdf`**: The final report summarizing the findings and presenting key visual and written insights.
+Due to GitHub file size limits, the full project is hosted externally.  
+You can download the complete package (notebook, dataset, and report) as a ZIP file:
+
+🔗 [Click here to download the full Syria Conflict Analysis Project](https://drive.google.com/file/d/1p9y3MM6gm551sb8tLoH1OIdiA7Z0wJVU/view?usp=drive_link)
+
+> This ZIP file contains:
+> - `Syria.ipynb`: Jupyter notebook with full analysis
+> - `syria.csv`: Raw dataset used in the project
+> - `Syria_report.pdf`: Final report with summary of findings and visualizations
 
 ---
 
@@ -28,18 +34,18 @@ This project presents an in-depth **data analysis of conflicts in Syria**, based
 
 - Python: Pandas, NumPy, Matplotlib, Seaborn
 - Jupyter Notebook
-- Geo-based visualization tools (if applicable)
 - PDF for reporting
+- *(Optional)* Geo-based visualization tools
 
 ---
 
 ## 📎 Dataset Description
 
 - Format: CSV
-- Attributes: [e.g., event_date, location, actor1, actor2, event_type, fatalities, ...]
-- Size: [insert number of rows/columns if known]
-- Source: [ACLED / UCDP / custom source]
-- Disclaimer: Data used for educational purposes.
+- Attributes: `event_date`, `location`, `actor1`, `actor2`, `event_type`, `fatalities`, ...
+- Size: Large file (>50MB)
+- Source: [Insert source name: ACLED / UCDP / etc.]
+- Disclaimer: Dataset is used strictly for educational purposes.
 
 ---
 
@@ -51,24 +57,15 @@ The `Syria_report.pdf` includes:
 - EDA with visuals
 - Key takeaways and recommendations
 - Limitations and considerations
-- Deep dive
----
-
-## 🌍 Sample Visualizations
-
-> Add if available:
-
-- 📍 Map of conflict locations  
-- 📈 Fatalities over time  
-- 📊 Conflict types distribution
+- Deep dive sections into actor/event/fatality breakdowns
 
 ---
 
 ## 🔮 Future Improvements
 
-- Deeper correlation analysis (fatalities vs. actors)
-- Prediction modeling of hotspots
-- Dashboards using Plotly / Streamlit
+- Deeper correlation analysis (e.g., fatalities vs. actor involvement)
+- Predictive modeling of future conflict zones
+- Interactive dashboards using Streamlit or Plotly Dash
 
 ---
 
@@ -81,5 +78,5 @@ The `Syria_report.pdf` includes:
 
 ## 🛡 License
 
-Educational use only. Conflict data and analysis are for learning purposes.
-
+This project is intended for educational and academic use only.  
+The data used is either publicly available or anonymized and analyzed solely for research purposes.
